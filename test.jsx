@@ -12,7 +12,7 @@ import App from './components/App.jsx'
 // import Article from './routes/article/index.jsx'
 import store from './store'
 injectTapEventPlugin();
-render(
+render( 
     <Provider store={store}>
     <div>
         <Router history = { hashHistory }>
